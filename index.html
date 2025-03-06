@@ -2,50 +2,52 @@
 <html lang="en">
   <head>
 
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-BM37P30CGZ"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-BM37P30CGZ"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-BM37P30CGZ');
+    </script>
 
-  gtag('config', 'G-BM37P30CGZ');
-</script>
-
+    <!-- Schema Markup -->
     <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Person",
-  "name": "Neel Kamal Modak",
-  "jobTitle": "Web Developer",
-  "url": "https://yourwebsite.com",
-  "sameAs": [
-    "https://github.com/neelmodak",
-    "https://www.linkedin.com/in/neelmodak"
-  ]
-}
-</script>
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Neel Kamal Modak",
+      "jobTitle": "Web Developer",
+      "url": "https://yourwebsite.com",
+      "sameAs": [
+        "https://github.com/neelmodak",
+        "https://www.linkedin.com/in/neelmodak"
+      ]
+    }
+    </script>
 
-    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Neel Kamal Modak - Web Developer Portfolio showcasing projects, skills, and contact information.">
-    <meta name="keywords" content="Web Development, Portfolio, HTML, CSS, JavaScript, React, Node.js">
+    
+    <!-- SEO Meta Tags -->
+    <title>Neel Kamal Modak | Web Developer Portfolio</title>
+    <meta name="description" content="Explore Neel Kamal Modak's portfolio showcasing web development projects, skills in React, Next.js, and Node.js, and contact details.">
+    <meta name="keywords" content="Web Developer, Portfolio, React, Next.js, Node.js, JavaScript, Full-Stack Developer">
     <meta name="author" content="Neel Kamal Modak">
     <meta name="robots" content="index, follow">
 
+    <!-- Open Graph (OG) for Social Media -->
     <meta property="og:title" content="Neel Kamal Modak | Web Developer Portfolio">
     <meta property="og:description" content="Explore projects built with React, Next.js, and Node.js.">
     <meta property="og:image" content="https://yourwebsite.com/thumbnail.jpg">
     <meta property="og:url" content="https://yourwebsite.com">
+    
+    <!-- Twitter Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Neel Kamal Modak | Web Developer Portfolio">
     <meta name="twitter:description" content="Explore projects built with React, Next.js, and Node.js.">
     <meta name="twitter:image" content="https://yourwebsite.com/thumbnail.jpg">
 
-
-
-    <title>Neel Kamal Modak | Web Developer | Portfolio & Projects</title>
     <style>
       body {
         font-family: Arial, sans-serif;
@@ -58,27 +60,23 @@
       header {
         background: #333;
         color: #fff;
-        padding: 1rem 0;
-      }
-
-      header h1 {
-        margin: 0;
+        padding: 1.5rem 0;
         text-align: center;
       }
 
-      header nav ul {
+      nav ul {
         list-style: none;
         padding: 0;
         display: flex;
         justify-content: center;
-        margin: 0;
+        gap: 20px;
       }
 
-      header nav ul li {
-        margin: 0 15px;
+      nav ul li {
+        display: inline;
       }
 
-      header nav ul li a {
+      nav ul li a {
         color: #fff;
         text-decoration: none;
         font-weight: bold;
@@ -116,78 +114,70 @@
   </head>
   <body>
     <header>
-      <div class="container">
-        
-        <h1>Neel Kamal Modak - Web Developer</h1>
-        <h2>About Me</h2>
-        <h3>Skills & Technologies</h3>
-
-        <nav>
-          <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </nav>
-      </div>
+      <h1>Neel Kamal Modak - Web Developer</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
     </header>
+
     <section id="about" class="section">
-      <h2>Objective</h2>
+      <h2>About Me</h2>
       <p>
-        I am a passionate web developer with a knack for creating beautiful and
-        functional websites. I am excited learning new technologies and
-        improving my skills every day.
+        I am a passionate web developer specializing in modern web technologies like 
+        <strong>React.js, Next.js, and Node.js</strong>. I love building interactive and scalable web applications.
       </p>
     </section>
+
     <section id="projects" class="section">
       <h2>Projects</h2>
       <div class="project-list">
         <div class="project">
-          <h3>E-Learning-Web-ApplicationE-Learning-Web-Application</h3>
+          <h3>E-Learning Web Application</h3>
           <p>
-            Web-Learning-Management-System-Application (LMS) built with Next.js
-            13, React, Stripe for payments, Mux for video streaming, Prisma for
-            database management, Tailwind CSS for styling, and MySQL
+            A Learning Management System (LMS) built using <strong>Next.js 13, React, Stripe, Mux, Prisma, Tailwind CSS, and MySQL</strong>.
           </p>
         </div>
         <div class="project">
-          <h3>Online_Voting_System</h3>
+          <h3>Online Voting System</h3>
           <p>
-            It is Full Stack Project for onilne voting system. Front end is
-            developed using html, bootstrap, php. Backend is developed using php
-            and php myadmin database.
+            A full-stack voting system built using <strong>HTML, Bootstrap, PHP, and MySQL</strong>.
           </p>
         </div>
         <div class="project">
-          <h3>Resume-builder-Project</h3>
+          <h3>Resume Builder Project</h3>
           <p>
-            This web-based Interactive Resume Builder lets users create, modify,
-            and export resumes as PDF files. With editable sections for
-            education, skills, achievements, and more, users can easily add
+            A web-based interactive Resume Builder that allows users to create and export resumes as PDFs.
           </p>
         </div>
       </div>
     </section>
+
     <section id="skills" class="section">
-      <h2>Skills</h2>
+      <h2>Skills & Technologies</h2>
       <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-        <li>React</li>
-        <li>Node.js</li>
+        <li>HTML, CSS, JavaScript</li>
+        <li>React.js, Next.js</li>
+        <li>Node.js, Express.js</li>
+        <li>MongoDB, MySQL</li>
+        <li>REST API Development</li>
       </ul>
     </section>
+
     <section id="contact" class="section">
       <h2>Contact Me</h2>
       <p>
-        If you'd like to get in touch, feel free to reach out on
-        <a href="neelmodakofficial2000@gmail.com">Gmail</a>.
+        Feel free to reach out via <a href="mailto:neelmodakofficial2000@gmail.com">Email</a> or connect on 
+        <a href="https://www.linkedin.com/in/neelmodak" target="_blank">LinkedIn</a>.
       </p>
     </section>
+
     <footer>
-      <p>&copy; 2025 My Portfolio. All rights reserved.</p>
+      <p>&copy; 2025 Neel Kamal Modak. All rights reserved.</p>
     </footer>
   </body>
 </html>
